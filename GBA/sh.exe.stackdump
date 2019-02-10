@@ -1,0 +1,9 @@
+MSYS-1.0.17 Build:2011-04-24 23:39
+Exception: STATUS_ACCESS_VIOLATION at eip=60826F26
+eax=00000001 ebx=0069FBC0 ecx=00002170 edx=001A0000 esi=0069FCE4 edi=00000000
+ebp=0069FCC8 esp=0069FB50 program=c:\devkitPro\msys\bin\sh.exe
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+0069FCC8  60826F26  (02000002, 00000020, 00000000, 00000000)
+  22760 [main] sh 9520 handle_exceptions: Error while dumping state (probably corrupted stack)

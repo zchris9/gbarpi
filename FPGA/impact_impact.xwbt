@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Users\Christian\OneDrive\Dokumente\GBA RPi\FPGA\GBARPi\impact.xsl
+OUTFILE=C:\Users\Christian\OneDrive\Dokumente\GBA RPi\FPGA\GBARPi\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=C:\Users\Christian\OneDrive\Dokumente\GBA RPi\FPGA\GBARPi
+LICENSE=iMPACT
+USER_INFO=iMPACT

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/GBARPi/TbSRAMController_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="TbSRAMController" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/TbSRAMController/rClk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rClk</obj_property>
+      <obj_property name="ObjectShortName">rClk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TbSRAMController/SRAMController/bState" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bState[2:0]</obj_property>
+      <obj_property name="ObjectShortName">bState[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TbSRAMController/SRAMController/RAM_CEn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RAM_CEn</obj_property>
+      <obj_property name="ObjectShortName">RAM_CEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TbSRAMController/SRAMController/RAM_OEn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RAM_OEn</obj_property>
+      <obj_property name="ObjectShortName">RAM_OEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TbSRAMController/SRAMController/RAM_WEn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RAM_WEn</obj_property>
+      <obj_property name="ObjectShortName">RAM_WEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TbSRAMController/SRAMController/RAM_ADDRESS" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RAM_ADDRESS[16:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM_ADDRESS[16:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TbSRAMController/SRAMController/RAM_DATA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RAM_DATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM_DATA[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TbSRAMController/SRAMController/IbReadAddress" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IbReadAddress[16:0]</obj_property>
+      <obj_property name="ObjectShortName">IbReadAddress[16:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TbSRAMController/SRAMController/IbWriteAddress" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IbWriteAddress[16:0]</obj_property>
+      <obj_property name="ObjectShortName">IbWriteAddress[16:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

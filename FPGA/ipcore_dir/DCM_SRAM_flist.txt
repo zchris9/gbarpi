@@ -1,0 +1,2 @@
+# Output products list for <DCM_SRAM>
+DCM_SRAM_flist.txt

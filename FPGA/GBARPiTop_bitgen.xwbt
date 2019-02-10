@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Christian\OneDrive\Dokumente\GBA RPi\FPGA\GBARPi\GBARPiTop.ncd
+OUTFILE=C:\Users\Christian\OneDrive\Dokumente\GBA RPi\FPGA\GBARPi\GBARPiTop.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50an-4tqg144
+WORKINGDIR=C:\Users\Christian\OneDrive\Dokumente\GBA RPi\FPGA\GBARPi
+LICENSE=WebPack
+USER_INFO=210973235_0_0_977

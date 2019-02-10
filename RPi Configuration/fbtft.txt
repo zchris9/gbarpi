@@ -1,0 +1,24 @@
+SPI aktivieren
+
+sudo modprobe fbtft_device name=flexfb speed=62500000
+sudo modprobe flexfb width=240 height=160 init=-3
+
+ls -l /dev/fb*
+
+con2fbmap 1 1
+
+
+/etc/modules-load.d/fbtft.conf:
+spi-bcm2835
+flexfb
+fbtft_device
+
+/etc/modprobe.d/fbtft.conf:
+options fbtft_device name=flexfb speed=31250000 fps=50 txbuflen=-1
+options flexfb width=240 height=160 init=-3
+
+/usr/share/X11/xorg.conf.d/99-fbturbo.conf
+
+
+
+sed -i -- 's/foo/bar/g'
